@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "regex": "cpp",
+        "chrono": "cpp",
+        "iostream": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "random": "cpp",
+        "span": "cpp",
+        "type_traits": "cpp",
+        "ios": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "iosfwd": "cpp"
+    }
+}
