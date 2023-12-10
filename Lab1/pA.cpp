@@ -25,6 +25,7 @@ signed main()
         cin >> a >> b;
         v.pb(make_pair(make_pair(a, b), i));
     }
+    // sorting the range form large to small
     sort(v.begin(), v.end(), cmp);
     int ans[n], min_R = v[n-1].F.S;
     memset(ans, 0, sizeof(ans));
@@ -40,6 +41,7 @@ signed main()
         if(v[i].F.S <= max_R) ans2[v[i].S] = 1;
         max_R = max(max_R, v[i].F.S);
     }
+    // special case: same x and y
     for(int i = 0; i < n-1; i++)
     {
         if(v[i].F.F == v[i+1].F.F && v[i].F.S == v[i+1].F.S)
