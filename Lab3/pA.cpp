@@ -121,8 +121,6 @@ signed main()
                     break;
                 }
             }
-            // cout << "eat: " << eat << "\n";
-            // cout << "x: " << x << "\n";
         }
         cout << ans << "\n";
     }
